@@ -1,0 +1,17 @@
+{
+    "name": "elisad5791/mybrackets",
+    "description": "Test package for Packagist",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Mybrackets\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "elisad5791",
+            "email": "elisad5791@mail.ru"
+        }
+    ],
+    "require": {}
+}
