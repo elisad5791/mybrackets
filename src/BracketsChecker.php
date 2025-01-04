@@ -9,7 +9,7 @@ class BracketsChecker
         $pattern = '/^[\(\)\s]+$/';
         $check = preg_match($pattern, $str);
         if ($check === 0) {
-            throw new InvalidArgumentException('Недопустимый формат строки');
+            throw new \InvalidArgumentException('Недопустимый формат строки');
         }
 
         $stack = 0;
