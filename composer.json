@@ -15,5 +15,7 @@
             "email": "elisad5791@mail.ru"
         }
     ],
-    "require": {}
+    "require": {
+        "php": ">=8.2"
+    }
 }
