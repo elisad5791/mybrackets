@@ -2,6 +2,8 @@
     "name": "elisad5791/mybrackets",
     "description": "Test package for Packagist",
     "type": "library",
+    "license": "MIT",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Mybrackets\\": "src/"
