@@ -6,11 +6,8 @@ class BracketsChecker
 {
     static public function ckeckString($str)
     {
-        $pattern = '/^[\(\)\s]+$/';
-        $check = preg_match($pattern, $str);
-        if ($check === 0) {
-            throw new \InvalidArgumentException('Недопустимый формат строки');
-        }
+        $pattern = '/[^\(\)]/';
+        preg_replace($pattern, '', $str);
 
         $stack = 0;
         $symbols = str_split($str);
