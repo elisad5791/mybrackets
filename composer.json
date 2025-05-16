@@ -1,0 +1,20 @@
+{
+    "name": "elisad5791/mybrackets",
+    "description": "Simple package for checking parentheses balance",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "elisad5791",
+            "email": "elisad5791@mail.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Elisad5791\\Mybrackets\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0"
+    }
+}
