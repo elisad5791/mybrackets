@@ -9,7 +9,7 @@ class BracketsChecker
         $pattern = '/^[\(\)]+$/';
         $check = preg_match($pattern, $str);
         if (!$check) {
-            return 'Invalid input string';
+            return "Invalid input string\n";
         }
 
         $stack = 0;
@@ -31,7 +31,7 @@ class BracketsChecker
             $result = false;
         }
 
-        $resultString = $result ? 'The brackets are balanced' : 'The brackets are not balanced';
+        $resultString = $result ? "The brackets are balanced\n" : "The brackets are not balanced\n";
         return $resultString;
     }
 }
